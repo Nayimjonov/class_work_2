@@ -1,5 +1,4 @@
 from rest_framework.views import APIView
-from rest_framework.response import Response
 from .serializers import ProductSerializer
 from .models import Product
 from .pagination import ProductListPagination
